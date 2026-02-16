@@ -1,0 +1,42 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 2px solid #e60012; /* 日本の伝統的な赤 */
+  padding: 10px 0;
+}
+
+.header-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* ロゴは左、メニューは右 */
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  height: 40px; /* ロゴの大きさを調整 */
+}
+
+.nav-item {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+body {
+    /* 1. ベースの色（生成されたロゴに合う少し黄みのある白） */
+    background-color: #fcfaf2; 
+    /* 2. 和紙の繊維感を出す魔法のコード（極小のグラデーションを重ねる） */
+    background-image: 
+        radial-gradient(#e6e2d3 10%, transparent 11%),
+        radial-gradient(#e6e2d3 10%, transparent 11%);
+    background-size: 4px 4px;
+    background-position: 0 0, 2px 2px; 
+    /* 3. さらなる質感（半透明のノイズを重ねるのがプロの技） */
+    background-blend-mode: multiply;
+
+    color: #333333; /* 真っ黒より少し優しい色 */
+}
